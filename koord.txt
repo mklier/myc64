@@ -1,0 +1,30 @@
+      9 def fnas(x) = atn(x/sqr(1-x^2))
+     10	pi4=atn(1)
+     20	deg=180
+     30	k=pi/deg
+     40	r=0
+     50	phi=0
+     60	
+     70	input "x koordinate";x
+     80	input "y koordinate";y
+     90	
+    100	if x=0 and y<>0 then gosub 190
+    110	if x=0 and y=0 then gosub 240
+    120	if x<>0 and y<>0 then gosub 290
+    130	
+    140	print "radius = ";r
+    150	print "phi    = ";phi
+    160	end
+    170	
+    190	phi=pi4*sgn(y)
+    200	r=abs(y)
+    210	return
+    220	
+    240	phi="undef"
+    250	r=0
+    260	return
+    270	
+    290	phi=fnas(y/x)
+    300	r=sqr(x^2+y^2)
+    310	return
+    65535 END

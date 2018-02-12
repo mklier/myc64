@@ -1,0 +1,10 @@
+
+
+;sin1 ==0801==
+   10 print"{clr}"
+   20 px=8*atn(1)
+   30 pz=px/100
+   40 for x=0 to px step pz
+   50 print x,sin(x)
+   60 next x
+

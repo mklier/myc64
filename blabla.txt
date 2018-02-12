@@ -1,0 +1,6 @@
+   10 poke53280,7
+   20 print"{clr}"
+   30 for bla=1 to 20
+   40 print "wurzel aus"; bla; " ist"; sqr(bla)
+   50 next bla
+   60 poke53280,5

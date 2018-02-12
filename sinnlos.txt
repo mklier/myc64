@@ -1,0 +1,4 @@
+   10 a=3
+   20 b=4
+   30 print a*b
+   40 print a+b

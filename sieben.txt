@@ -1,0 +1,9 @@
+
+
+;sieben ==0801==
+    1 print"{clr}"
+    2 print"siebenerreihe"
+    3 for bla=1 to 10
+    4 print bla;"* 7 =";bla*7
+    5 next bla
+    6 print"============="
